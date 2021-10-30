@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div id="dark_btn">
+                <input type="checkbox" class="checkbox" id="input-switch" />
+                <label class="switch" for="input-switch">
+                    <span class="circle"></span>
+                </label>
+            </div>
+            <div class="header">
+                <h1 class="logo">Gallery</h1>
+                <form action="">
+                    <input type="text" placeholder="Search Images" />
+                    <ion-icon name="search-outline"></ion-icon>
+                </form>
+            </div>
+
+            <div class="gallery">
+                <div class="item">
+                    <img class="img" src="./images/img1.jpg" alt="img" />
+                    <h3>
+                        <a href="./images/img1.jpg" download="img1"><i class="fas fa-arrow-down"></i></a>
+                    </h3>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img class="img" src="./images/img2.jpg" alt="img" />
+                        <h3>
+                            <a href="./images/img2.jpg" download="img2"><i class="fas fa-arrow-down"></i></a>
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img class="img" src="./images/img3.jpg" alt="img" />
+                        <h3>
+                            <a href="./images/img3.jpg" download="img3"><i class="fas fa-arrow-down"></i></a>
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img class="img" src="./images/img4.jpg" alt="img" />
+                        <h3>
+                            <a href="./images/img4.jpg" download="img4"><i class="fas fa-arrow-down"></i></a>
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img class="img" src="./images/img5.jpg" alt="img" />
+                        <h3>
+                            <a href="./images/img5.jpg" download="img5"><i class="fas fa-arrow-down"></i></a>
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="">
+                        <img class="img" src="./images/img6.jpg" alt="img" />
+                        <h3>
+                            <a href="./images/img6.jpg" download="img6"><i class="fas fa-arrow-down"></i></a>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
